@@ -1,9 +1,13 @@
+// Nama package dari data yang dibuat dalam aplikasi
 package com.ikanurfitriani.dessertclicker.data
 
+// Import library yang akan digunakan
 import com.ikanurfitriani.dessertclicker.R
 import com.ikanurfitriani.dessertclicker.model.Dessert
 
+// Membuat objek Datasource
 object Datasource {
+    // Menampilkan daftar dessert, harga dan starProductionAmoun
     val dessertList = listOf(
         Dessert(R.drawable.cupcake, 5, 0),
         Dessert(R.drawable.donut, 10, 5),
